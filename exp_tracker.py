@@ -52,7 +52,7 @@ class ExpTracker:
 
         self.window.config(bg=bg_color)
 
-        frame = tk.Frame(self.window, width=w, height=h)
+        frame = tk.Frame(self.window, width=TOOL_WIDTH, height=TOOL_HEIGHT)
         frame.grid(row=0, column=0, padx=padx, pady=pady)
         frame.pack(fill="both", expand=True)
         frame.config(bg=bg_color)
